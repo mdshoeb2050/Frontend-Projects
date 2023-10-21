@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #111;
+}
+
+.cube {
+    perspective: 1200px;
+    width: 200px;
+    height: 200px;
+}
+
+.face {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #333;
+    border: 1px solid #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.front { transform: rotateY(0deg) translateZ(100px); }
+.back { transform: rotateY(180deg) translateZ(100px); }
+.right { transform: rotateY(90deg) translateZ(100px); }
+.left { transform: rotateY(-90deg) translateZ(100px); }
+.top { transform: rotateX(90deg) translateZ(100px); }
+.bottom { transform: rotateX(-90deg) translateZ(100px); }
+
+.cube:hover .face {
+    transform: rotateY(45deg) rotateX(45deg) translateZ(100px);
+    box-shadow: 0 0 40px 20px rgba(255, 255, 255, 0.5);
+}
