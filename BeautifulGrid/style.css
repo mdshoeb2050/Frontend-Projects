@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* border: 1px solid rgb(233, 230, 37); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #222;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(5,150px);
+    grid-gap: 8px;
+}
+
+/* making child element (box) relative  */
+.container .box{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background:rgba(45, 45, 45, 1);
+    overflow: hidden;
+}
+
+.container .box::before{
+    content: '';
+    position:absolute;
+    /* positioning using varible colors */
+    top: var(--y);
+    left: var(--x);
+    /* using transform property let's make movement in both direction */
+    transform: translate(-50%, -50%);
+    background: radial-gradient(var(--clr), transparent , transparent);
+    width: 300px;
+    height: 300px;
+    /* adding opacity and transition for smooth shining on corner of boxes */
+    opacity: 0;
+    transition: 0.5s, top 0s, left 0s;
+}
+
+.container .box:hover::before{
+    opacity: 1;
+}
+.container .box::after{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background:rgba(45, 45, 45, 0.9);
+
+}
+.heading{
+    position: absolute;
+    border: 1px solid #3fefef;
+    text-decoration: solid;
+    color: aliceblue;
+    top: 10px;
+    padding: 10px 60px;
+
+}

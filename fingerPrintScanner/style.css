@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: consolas;   
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    min-height: 100vh;
+    background: #111;
+}
+.scanner
+{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scanner .fprint
+{
+    position: relative;
+    width: 300px;
+    height: 380px;
+    /* Check Description box for image drive link */
+    background: url(./images/fingerPrint_01.png); 
+    background-size: 300px;
+}
+
+.scanner .fprint::before
+{
+    content: ' ';
+    position: absolute;
+    top: 0px;;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    /* Check Description box for image drive link */
+    background: url(./images/fingerPrint_02.png);
+    background-size: 300px;
+    animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate 
+{
+    0%,100%
+    {
+        height: 0%;
+    }
+    50%
+    {
+        height: 100%;
+    }
+    
+}
+
+.scanner .fprint::after{
+    content: ' ';
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 8px;
+    background: #3fefef;
+    border-radius: 8px;
+    /* using filter function for Glow effect  */
+    filter: drop-shadow(0 0 20px #3fefef) drop-shadow(0 0 60px #3fefef);
+   /* using animation to animate line from top to bottom */
+   animation: animate2 4s ease-in-out infinite;
+}
+
+@keyframes animate2 
+{
+    0%,100%
+    {
+       top:0%;
+    }
+    50%
+    {
+        top:100%;
+    }
+    
+}
+
+.scanner h3{
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    color: #3fefef;
+    /* using filter for glowing effect in text */
+    filter: drop-shadow(0 0 20px #3fefef) drop-shadow(0 0 60px #3fefef);
+    /* using animation to animate text bliking effect */
+    animation: animate_txt 0.4s steps(1) infinite;
+
+}
+@keyframes animate_txt 
+{
+    0%,100%
+    {
+       opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    
+}

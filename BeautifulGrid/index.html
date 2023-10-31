@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Box</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading"><h2>Try this Magic Box</h2></div>
+      <div class="container">
+         <div class="box" style="--clr:rgb(228, 246, 40);"></div>
+         <div class="box" style="--clr:rgb(237, 233, 233);"></div>
+         <div class="box" style="--clr:rgb(62, 234, 15);"></div>         
+         <div class="box" style="--clr:rgb(68, 243, 255);"></div>         
+         <div class="box" style="--clr:rgb(111, 246, 44);"></div>         
+         <div class="box" style="--clr:rgb(235, 221, 13);"></div>         
+         <div class="box" style="--clr:rgb(212, 79, 238);"></div>         
+         <div class="box" style="--clr:rgb(61, 244, 201);"></div>         
+         <div class="box" style="--clr:rgb(216, 235, 238);"></div>         
+         <div class="box" style="--clr:rgb(45, 7, 173);"></div>         
+         <div class="box" style="--clr:rgb(245, 245, 46);"></div>         
+         <div class="box" style="--clr:rgba(61, 239, 224, 0.867);"></div>         
+         <div class="box" style="--clr:rgb(120, 239, 84);"></div>         
+         <div class="box" style="--clr:rgb(245, 245, 46);"></div>         
+         <div class="box" style="--clr:rgba(243, 182, 84, 0.867);"></div>         
+      </div>
+
+<!-- Adding some javascript code to make it more interactive and beautiful -->
+    <script>
+         let boxes = document.querySelectorAll('.box');
+         boxes.forEach(box => {
+            box.onmousemove = function(e){
+                // using offset method
+                let x = e.pageX - box.offsetLeft;
+                let y =e.pageY  - box.offsetTop;
+
+                // setting property using setProperty method
+                box.style.setProperty('--x', x + 'px');
+                box.style.setProperty('--y', y + 'px');
+            }
+         })
+    </script>
+</body>
+</html>
