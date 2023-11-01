@@ -5,6 +5,7 @@
 }
 
 body{
+    border: 2px solid yellow;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,8 +14,9 @@ body{
 }
 
 .container{
+    border: 2px solid yellow;
     position: relative;
-    top: -80px;
+    top: -80px;  /* conatainer position go up to -80px from its normal position */
     transform: skewY(-20deg); /*skewY() for object tilt*/
     animation: animate 5s linear infinite;
 }
@@ -44,27 +46,29 @@ body{
 }
 
 .container .cube div{
+    border: 2px solid yellow;
     position: absolute;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    translate: calc(-70px * var(--x)) calc(-70px * var(--y));
+    translate: calc(-70px * var(--x)) calc(-60px * var(--y));
 }
 
 .container .cube div span{
+    border: 2px solid rgb(0, 0, 0);
     position: relative;
-    display: inline-block;
+    display: inline-block; /* in one line */
     width: 50px;
     height: 50px;
     background: #dcdcdc;
-    z-index: calc(1 * var(--i));
+    z-index: calc(1 * var(--i)); /*setting z index for each box*/
     transition: 1.5s;
 }
 
 .container .cube div span:hover{
     transition: 0s;
     background: #ef4149;
-    filter: drop-shadow(0 0 30px #ef4149);
+    filter: drop-shadow(0 0 30px #ef4149); /* */
 }
 
 .container .cube div span::before{
@@ -75,7 +79,7 @@ body{
     height: 100%;
     background: #fff;
     transform-origin: right;
-    transform: skewY(45deg);
+    transform: skewY(45deg); /* tilting across Y-axis */
     transition: 1.5s;
 }
 
@@ -93,7 +97,7 @@ body{
     height: 40px;
     background: #f2f2f2;
     transform-origin: bottom;
-    transform: skewX(45deg);
+    transform: skewX(45deg);  /* tilting across X-axis */
     transition: 1.5s;
 }
 
