@@ -24,7 +24,7 @@
 
    **Correct Answer: A) `<footer>`**
 
-4. **What does the `<canvas>` element do in HTML5?**
+4. **What does the `<canvas>` element do in HTML5?**     <<<==
    - A) Embeds video content
    - B) Provides a container for displaying graphics
    - C) Defines a table structure
@@ -56,7 +56,7 @@
 
    **Correct Answer: A) `required`**
 
-8. **What is the purpose of the `localStorage` object in HTML5?**
+8. **What is the purpose of the `localStorage` object in HTML5?**     <<<==
    - A) To store session-based data
    - B) To store data locally within the user's browser
    - C) To interact with the server's database
@@ -80,7 +80,7 @@
    
     **Correct Answer: C) Alternative text for images**
 
-11. **Which attribute is used in HTML5 to specify the form element that the input field is associated with?**
+11. **Which attribute is used in HTML5 to specify the form element that the input field is associated with?**    <<<==
     - A) `formid`
     - B) `formtarget`
     - C) `formaction`
@@ -112,7 +112,7 @@
    
     **Correct Answer: B) `<section>`**
 
-15. **What is the purpose of the `<aside>` tag in HTML5?**
+15. **What is the purpose of the `<aside>` tag in HTML5?** 
     - A) Defines a section that contains navigation links
     - B) Defines a self-contained content or a related content separate from the main content
     - C) Indicates a block of content that is tangentially related to the content around the aside element
@@ -128,7 +128,7 @@
    
     **Correct Answer: C) `placeholder`**
 
-17. **What is the purpose of the `<details>` element in HTML5?**
+17. **What is the purpose of the `<details>` element in HTML5?**    <<<==
     - A) Defines a container for metadata
     - B) Marks text that is no longer accurate
     - C) Creates an interactive widget that the user can open and close
@@ -160,7 +160,7 @@
    
     **Correct Answer: B) Highlights text within a document**
 
-21. **What does the HTML5 `contenteditable` attribute do?**
+21. **What does the HTML5 `contenteditable` attribute do?**     <<<==
     - A) Makes content editable within the browser
     - B) Disables editing of content within the browser
     - C) Defines content that cannot be changed
@@ -176,9 +176,7 @@
    
     **Correct Answer: A) `alt`**
 
-23. **What is the purpose of the `<progress>` element in HTML5
-
-?**
+23. **What is the purpose of the `<progress>` element in HTML5?**      <<<==
     - A) Marks text that is no longer accurate
     - B) Represents the progress of a task
     - C) Defines an independent, self-contained content
@@ -194,7 +192,7 @@
    
     **Correct Answer: C) `<ul>`**
 
-25. **What is the purpose of the HTML5 `autofocus` attribute?**
+25. **What is the purpose of the HTML5 `autofocus` attribute?**        <<<==
     - A) Automatically focuses the cursor on a specified input field
     - B) Disables focusing on input fields
     - C) Clears the focus from input fields
@@ -210,7 +208,7 @@
    
     **Correct Answer: A) `required`**
 
-27. **What does the HTML5 `spellcheck` attribute do?**
+27. **What does the HTML5 `spellcheck` attribute do?**      <<<==
     - A) It enables spell checking in an input field
     - B) It disables spell checking in an input field
     - C) It checks grammar in an input field
@@ -226,7 +224,7 @@
    
     **Correct Answer: C) `<hr>`**
 
-29. **What is the purpose of the HTML5 `datetime` attribute?**
+29. **What is the purpose of the HTML5 `datetime` attribute?**      <<<==
     - A) Specifies the current date and time
     - B) Defines a specific date and time for an input field
     - C) Captures the time a page was last modified
@@ -242,10 +240,10 @@
    
     **Correct Answer: D) `<title>`**
 
-31. **What does the `srcset` attribute do in HTML5?**
+31. **What does the `srcset` attribute do in HTML5?**     <<<== 
     - A) Specifies the source of an image
     - B) Sets a fallback image source
-    - C) Provides multiple image sources for responsive images
+    - C) Provides multiple image sources for responsive images   
     - D) None of the above
    
     **Correct Answer: C) Provides multiple image sources for responsive images**
@@ -266,7 +264,7 @@
    
     **Correct Answer: B) Specifies that the script should be executed asynchronously**
 
-34. **Which attribute is used in HTML5 to specify the URL of an image to be shown in case the original image is not available?**
+34. **Which attribute is used in HTML5 to specify the URL of an image to be shown in case the original image is not available?**    <<<==
     - A) `fallback`
     - B) `alt`
     - C) `srcset`
@@ -274,7 +272,7 @@
    
     **Correct Answer: A) `fallback`**
 
-35. **What is the purpose of the `<figcaption>` tag in HTML5?**
+35. **What is the purpose of the `<figcaption>` tag in HTML5?**  
     - A) Specifies a caption for an image
     - B) Defines a figure in a document
     - C) Highlights a section of text
@@ -290,7 +288,7 @@
    
     **Correct Answer: C) `<hr>`**
 
-37. **What does the HTML5 `download` attribute do in an `<a>` tag?**
+37. **What does the HTML5 `download` attribute do in an `<a>` tag?**    <<<==
     - A) Opens the link in a new window
     - B) Downloads the linked file when clicked
     - C) Saves the link for offline viewing
@@ -306,7 +304,7 @@
    
     **Correct Answer: A) `charset`**
 
-39. **What is the purpose of the `draggable` attribute in HTML5?**
+39. **What is the purpose of the `draggable` attribute in HTML5?**   <<<==
     - A) Makes an element resizable
     - B) Enables the dragging of an element
     - C) Sets the element's position on the page
@@ -322,7 +320,7 @@
    
     **Correct Answer: C) `<nav>`**
 
-41. **What does the `defer` attribute do in an HTML5 `<script>` tag?**
+41. **What does the `defer` attribute do in an HTML5 `<script>` tag?**   <<<==
     - A) Defers the script execution until the page has finished parsing
     - B) Disables the script
     - C) Specifies that the script should be executed synchronously
@@ -338,7 +336,7 @@
    
     **Correct Answer: A) `lang`**
 
-43. **What is the purpose of the HTML5 `role` attribute?**
+43. **What is the purpose of the HTML5 `role` attribute?**     <<<==
     - A) Identifies the role of an element in accessibility
     - B) Sets the hierarchy of elements on the page
     - C) Defines the order of elements in the document
