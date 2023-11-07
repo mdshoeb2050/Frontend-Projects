@@ -4,6 +4,15 @@
 While specific behavioral questions can vary, especially in interviews, here's a list of common behavioral questions often asked during interviews for the role of Associate Software Engineer at IBM:
 
 ### 1. Tell me about yourself.
+
+  - first of thank you sir/mam giving me this ooprtunity to introduce myself , My name is shoeb ansari , Basically i belong to varanasi ditrict in UP. 
+  - I have done my school from Amarawati devi intermediate college and i have secured 81.3 in 10th standard and 78.6 in 12th standard.
+  - Currently i have completed my engineering in computer science branch with CGPA 7.8 
+  - My technical skill are - c, C++, java and htmnl,css, js, git , github and chrome dev tools .
+  - I have done certification in C++ and java from RCPL and EICT kanpur.
+  - I have done some minor and major project in web development domain.
+
+
 ### 2. Why do you want to work at IBM?
 ### 3. What do you know about IBM's recent projects or innovations?
 ### 4. Describe a challenging situation you faced in a team project. How did you handle it?

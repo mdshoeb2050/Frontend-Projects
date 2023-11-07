@@ -47,15 +47,15 @@ body{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 25px;
+    /* border-radius: 25px; */
 }
 
 .container .card h2 {
      position: relative;
      z-index: 1000;
      color: #fff;
-     font-size: 10em;
-     transform: rotateY(180deg) translateY(100px) translateZ(50px);
+     font-size: 6em;
+     transform: rotateY(180deg) translateY(300px) translateZ(50px);
      transform-style: preserve-3d;
      font-weight: 900;
      backface-visibility: hidden;
@@ -65,7 +65,7 @@ body{
 .container .card h2 span{
     position: absolute;
     top: 50%;
-    left: 0;
+    left: 10%;
     font-size: 0.4em;
     font-weight: 500;
     transform: translate(0,50%) translateZ(50px);
