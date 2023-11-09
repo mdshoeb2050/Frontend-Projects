@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    margin: 20px auto;
+    width: 1400px;
+    columns: 4;
+    column-gap: 20px;
+}
+
+.main .box{
+    width: 100%;
+    margin-bottom: 10px;
+    break-inside: avoid; 
+}
+
+.main .box img{
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+@media (max-width: 1200px) {
+    .main{
+        width: calc(100% - 30px);
+        columns: 3;
+    }
+}
+
+@media (max-width: 768px) {
+    .main{
+        columns: 2;
+    }
+}
+
+@media (max-width: 480px) {
+    .main{
+        columns: 1;
+    }
+}
