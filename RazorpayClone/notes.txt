@@ -1,0 +1,17 @@
+Certainly! While I cannot provide the exact HTML code used by Razorpay (as that would be proprietary information),
+I can offer a simplified example of how you might structure a landing page with similar components.
+This is a basic representation and may not include all the intricacies and optimizations that a production-level codebase would have.
+
+This is a basic HTML structure for a landing page with the mentioned components. 
+For a complete and functional implementation, you'd need to create corresponding CSS styles and potentially include JavaScript for interactive features. 
+Remember that the actual Razorpay website is likely to have a more complex structure with additional features, optimizations, and considerations.
+
+
+
+
+Certainly! Below is a simplified example of CSS styles that could correspond to the HTML structure provided earlier. 
+Please note that this is a basic representation, and the actual styles used by Razorpay would be more detailed and may involve additional considerations.
+
+
+This CSS provides a basic styling structure for the HTML components. 
+For a real-world application, you might need more sophisticated styles, and it's recommended to use a preprocessor like Sass or Less, as well as a build tool like webpack for optimizations. Additionally, responsive design has been considered with a simple media query for smaller screens. Adjustments may be needed based on the specific design requirements and the content of your landing page.
