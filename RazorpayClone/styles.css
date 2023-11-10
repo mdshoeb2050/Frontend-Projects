@@ -1,0 +1,210 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, blockquote, ul, ol, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .nav-links a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f4f4f4;
+  }
+  
+  .hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    color: #555;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1em;
+    text-decoration: none;
+    background-color: #4285f4;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  /* Product Features Styles */
+  .product-features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 80px 0;
+  }
+  
+  .feature {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .feature img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Testimonials Styles */
+  .testimonials {
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  .testimonial {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  blockquote {
+    font-style: italic;
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  /* Integration Partners Styles */
+  .integration-partners {
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  .integration-partners h2 {
+    margin-bottom: 40px;
+  }
+  
+  .partner img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px;
+  }
+  
+  /* Pricing Section Styles */
+  .pricing {
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  .pricing-plan {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 30px;
+  }
+  
+  .pricing-plan h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 1.2em;
+    color: #4285f4;
+    margin-bottom: 20px;
+  }
+  
+  /* Developer-Focused Section Styles */
+  .developer-section {
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  .developer-section h2 {
+    margin-bottom: 40px;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-links {
+      margin-top: 20px;
+    }
+  
+    .hero {
+      padding: 60px 20px;
+    }
+  
+    .product-features {
+      padding: 60px 20px;
+    }
+  
+    .testimonials {
+      padding: 60px 20px;
+    }
+  
+    .integration-partners {
+      padding: 60px 20px;
+    }
+  
+    .pricing {
+      padding: 60px 20px;
+    }
+  
+    .developer-section {
+      padding: 60px 20px;
+    }
+  }
+  
