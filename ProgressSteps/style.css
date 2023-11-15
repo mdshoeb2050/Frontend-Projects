@@ -10,8 +10,9 @@
 }
 
 body {
+  background-color: rgb(220, 74, 103);
+   /* background-color: #f6f7fb; */
   font-family: "Muli", sans-serif;
-  background-color: #f6f7fb;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,10 +22,12 @@ body {
 }
 
 .container {
+  background-color: rgb(204, 159, 246);
   text-align: center;
 }
 
 .progress-container {
+  background-color: yellow;
   display: flex;
   justify-content: space-between;
   position: relative;
