@@ -1,7 +1,9 @@
 
-Here's a concise HTML5 cheatsheet for quick revision before your interview:
+- Here's a concise HTML5 cheatsheet for quick revision before your interview:
 
 ### HTML5 Structure:
+
+
 
 - `<!DOCTYPE html>`: Declaration at the beginning of an HTML document.
 - `<html>...</html>`: Root element that encloses the entire HTML content.
