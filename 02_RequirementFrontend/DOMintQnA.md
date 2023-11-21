@@ -30,3 +30,5 @@ https://interviewprep.org/document-object-model-dom-interview-questions/
 23. What is the use of ‘querySelector’ and ‘querySelectorAll’ in DOM?
 24. Can you elaborate on how JavaScript closures can help in managing DOM elements?
 25. How does DOM interface with JavaScript event loop and task queue?
+
+

@@ -63,6 +63,8 @@ dispatch(increment());
 const currentState = store.getState();
 ```
 
+
+
 ### **Connecting Redux with React:**
 
 #### **1. Provider:**
@@ -79,6 +81,8 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ```
+
+
 
 #### **2. Connect:**
    - The `connect` function from `react-redux` connects a React component to the Redux store.
@@ -107,6 +111,8 @@ const mapDispatchToProps = dispatch => ({
 export default connect(mapStateToProps, mapDispatchToProps)(Counter);
 ```
 
+
+
 ### **Async Operations and Middleware:**
 
 #### **1. Thunk Middleware:**
@@ -120,6 +126,7 @@ import rootReducer from './reducers';
 
 const store = createStore(rootReducer, applyMiddleware(thunk));
 ```
+
 
 #### **2. Async Action Creator with Thunk:**
    - With Thunk, you can create async action creators.
@@ -138,6 +145,7 @@ const fetchData = () => {
   };
 };
 ```
+
 
 ### **Selectors:**
 
