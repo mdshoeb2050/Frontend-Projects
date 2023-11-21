@@ -2,6 +2,7 @@ Certainly! React.js is a JavaScript library developed by Facebook for building u
 
 ### Core Principles of React.js:
 
+
 #### 1. **Components:**
    - React applications are built using components, which are reusable and self-contained pieces of UI.
    - Components can be either functional or class-based.
@@ -30,6 +31,7 @@ class Greeting extends React.Component {
 <Greeting name="John" />
 ```
 
+
 #### 2. **Virtual DOM:**
    - React uses a virtual DOM to improve performance by minimizing direct manipulation of the actual DOM.
    - Changes are first made to a virtual DOM, and React efficiently updates the real DOM only where necessary.
@@ -54,6 +56,7 @@ const element = <h1>Hello, World!</h1>;
 function Parent() {
   return <Child name="John" />;
 }
+
 
 // Child Component
 function Child(props) {
