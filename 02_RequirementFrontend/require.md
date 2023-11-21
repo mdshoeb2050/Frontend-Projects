@@ -1,6 +1,6 @@
-# Strong proficiency in JS 
+# Strong proficiency in Javascript
 
-# DOM and JS object model
+# DOM and JavaScript object model
 
 # Understanding of React.js and its core principle
 

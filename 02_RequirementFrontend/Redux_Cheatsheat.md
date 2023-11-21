@@ -146,7 +146,7 @@ const fetchData = () => {
 };
 ```
 
-
+****
 ### **Selectors:**
 
 #### **1. Reselect:**
