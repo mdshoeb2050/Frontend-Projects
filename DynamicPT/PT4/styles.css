@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.task {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #eaf6fb;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.progress {
+    width: 100%;
+    background-color: #d3d3d3;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.progressBar {
+    height: 100%;
+    border-radius: 10px;
+    background-color: #4caf50;
+}
